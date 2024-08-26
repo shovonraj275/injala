@@ -118,11 +118,11 @@ else{ subdivi=`বিভাগ নিবাচন করুন`}
 }
 // <!-- ========== onchange divi End Section ========== -->
 // <!-- ========== onchange divi Start Section ========== -->
-function subdivi(){
-  var subdivival =document.getElementById("subdivi").value;
-  // console.log(divival);
-  document.getElementById("test3").innerHTML =subdivival;
-}
+// function subdivi(){
+//   var subdivival =document.getElementById("subdivi").value;
+//   // console.log(divival);
+//   document.getElementById("test3").innerHTML =subdivival;
+// }
 // <!-- ========== onchange divi End Section ========== -->
 const nn =["চট্টগ্রাম" , "রাজশাহী" , "খুলনা" , "বরিশাল" , "সিলেট" , "ঢাকা" , "রংপুর" , "ময়মনসিংহ"];
 let c=nn.sort();
