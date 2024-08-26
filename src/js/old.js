@@ -87,3 +87,6 @@ function bkasss(){
   document.getElementById("hemout").innerHTML=sch ;
 }
 // <!-- ========== End Section ========== -->
+document.getElementById("test3").innerHTML =newsubDiveBarisal
+let ckval = document.getElementById("test3").value;
+document.getElementById("test5").innerHTML=ckval;

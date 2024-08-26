@@ -1,5 +1,6 @@
-let newsubDiveChittagong =[];
-subDiveChittagong.forEach(myfncrtion_subDiveChittagong);
-function myfncrtion_subDiveChittagong(Chittagong) {
-  newsubDiveChittagong += "<option value=" + Chittagong +">" + Chittagong + "</option>";
+
+let newsubDivieSylhet =[];
+subDivieSylhet.forEach(myfncrtion_subDivieSylhet);
+function myfncrtion_subDivieSylhet(Sylhet) {
+  newsubDivieSylhet += "<option value=" + Sylhet +">" + Sylhet + "</option>";
 }

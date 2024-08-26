@@ -11,14 +11,18 @@
         <div class="grid">
           <!-- ========== division Start Section ========== -->
           <div class="grid_content">
-            <label for="">Select Division </label>
-            <select id="divi" onchange="divis()"></select>
+            <label for="">বিভাগ</label>
+            <select id="divi" onchange="divis()">
+              <option value="" selected disabled hidden>একটি বিভাগ নিবাচন করুন   </option>
+            </select>
           </div>
           <!-- ========== division End Section ========== -->
           <!-- ========== Start Section ========== -->
           <div class="grid_content">
-            <label for="">Select </label>
-            <select></select>
+            <label for="">জেলা</label>
+            <select id="subdivi" onchange="subdivi()">
+              <option value="" selected disabled hidden>   বিভাগ নিবাচন করুন </option>
+            </select>
           </div>
           <!-- ========== End Section ========== -->
           <!-- ========== Start Section ========== -->
@@ -39,6 +43,10 @@
       <div id="test"></div>
       <div id="test2"></div>
       <div id="test3"></div>
+      <div id="test4"></div>
+      <div id="test5"></div>
+      <div id="sort"></div>
     <script src="./src/js/main.js"></script>
+    
 </body>
 </html>
