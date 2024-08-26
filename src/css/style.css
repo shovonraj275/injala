@@ -1,4 +1,7 @@
 /***** Section *****/ 
+body{
+    font-size: 25px;
+}
 .Grid_content_Btn{
     background: #04f4ec;
     border: 0;
@@ -16,13 +19,73 @@ section{
 }
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 15px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px;
 }
-.grid select,
-.grid input{
+.grid select{
    width: 90%;
    margin: 5px;
-   padding: 10px;
+   padding: 5px;
+   font-size: 20px;
 }
 /***** End Section *****/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 15px;
+    } 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+chack
+
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+   
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+}
+
