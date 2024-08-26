@@ -1,6 +1,129 @@
-
-let newsubDivieSylhet =[];
-subDivieSylhet.forEach(myfncrtion_subDivieSylhet);
-function myfncrtion_subDivieSylhet(Sylhet) {
-  newsubDivieSylhet += "<option value=" + Sylhet +">" + Sylhet + "</option>";
+const subdivDhaka1 =["থানা নিবাচন করুন ,];
+let  newsubdivDhaka1 =[];
+subdivDhaka1.forEach(myfncrtion_subdivDhaka1);
+function myfncrtion_subdivDhaka1(subdivDhaka1,index) {
+  newsubdivDhaka1 += "<option value=subdivDhaka1" + index +">" + subdivDhaka1 + "</option>";
 }
+// subdivDhaka2
+const subdivDhaka2 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka2 =[];
+subdivDhaka2.forEach(myfncrtion_subdivDhaka2);
+function myfncrtion_subdivDhaka2(subdivDhaka2,index) {
+  newsubdivDhaka2 += "<option value=subdivsubdivDhaka2" + index +">" +  subdivDhaka2+ "</option>";
+}
+// subdivDhaka3
+const subdivDhaka3 =["থানা নিবাচন করুন ","];
+let newsubdivDhaka3 =[];
+subdivDhaka3.forEach(myfncrtion_subdivDhaka3);
+function myfncrtion_subdivDhaka3(subdivDhaka3,index) {
+  newsubdivDhaka3 += "<option value=subdivsubdivDhaka3" + index +">" + subdivDhaka3 + "</option>";
+}
+// subdivDhaka4
+const subdivDhaka4 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka4 =[];
+subdivDhaka4.forEach(myfncrtion_subdivDhaka4);
+function myfncrtion_subdivDhaka4(subdivDhaka4,index) {
+  newsubdivDhaka4 += "<option value=subdivsubdivDhaka4" + index +">" + subdivDhaka4 + "</option>";
+}
+// subdivDhaka5
+const subdivDhaka5 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka5 =[];
+subdivDhaka5.forEach(myfncrtion_subdivDhaka5);
+function myfncrtion_subdivDhaka5(subdivDhaka5,index) {
+  newsubdivDhaka5 += "<option value=subdivsubdivDhaka5" + index +">" + subdivDhaka5 + "</option>";
+}
+// subdivDhaka6
+const subdivDhaka6 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka6 =[];
+subdivDhaka6.forEach(myfncrtion_subdivDhaka6);
+function myfncrtion_subdivDhaka6(subdivDhaka6,index) {
+  newsubdivDhaka6 += "<option value=subdivsubdivDhaka6" + index +">" + subdivDhaka6 + "</option>";
+}
+// subdivDhaka7
+const subdivDhaka7 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka7 =[];
+subdivDhaka7.forEach(myfncrtion_subdivDhaka7);
+function myfncrtion_subdivDhaka7(subdivDhaka7,index) {
+  newsubdivDhaka7 += "<option value=subdivsubdivDhaka7" + index +">" + subdivDhaka7 + "</option>";
+}
+// subdivDhaka8
+const subdivDhaka8 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka8 =[];
+subdivDhaka8.forEach(myfncrtion_subdivDhaka8);
+function myfncrtion_subdivDhaka8(subdivDhaka8,index) {
+  newsubdivDhaka8 += "<option value=subdivsubdivDhaka8" + index +">" + subdivDhaka8 + "</option>";
+}
+// subdivDhaka9
+const subdivDhaka9 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka9 =[];
+subdivDhaka9.forEach(myfncrtion_subdivDhaka9);
+function myfncrtion_subdivDhaka9(subdivDhaka9,index) {
+  newsubdivDhaka9 += "<option value=subdivsubdivDhaka9" + index +">" + subdivDhaka9 + "</option>";
+}
+// subdivDhaka10
+const subdivDhaka10 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka10 =[];
+subdivDhaka10.forEach(myfncrtion_subdivDhaka10);
+function myfncrtion_subdivDhaka10(subdivDhaka10,index) {
+  newsubdivDhaka10 += "<option value=subdivsubdivDhaka10" + index +">" + subdivDhaka10 + "</option>";
+}
+// subdivDhaka11
+const subdivDhaka11 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka11 =[];
+subdivDhaka11.forEach(myfncrtion_subdivDhaka11);
+function myfncrtion_subdivDhaka11(subdivDhaka11,index) {
+  newsubdivDhaka11 += "<option value=subdivsubdivDhaka11" + index +">" + subdivDhaka11 + "</option>";
+}
+// subdivDhaka12
+const subdivDhaka12 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka12 =[];
+subdivDhaka12.forEach(myfncrtion_subdivDhaka12);
+function myfncrtion_subdivDhaka12(subdivDhaka12,index) {
+  newsubdivDhaka12 += "<option value=subdivsubdivDhaka12" + index +">" + subdivDhaka12 + "</option>";
+}
+// subdivDhaka13
+const subdivDhaka13 =["থানা নিবাচন করুন ",];
+let newsubdivDhaka13 =[];
+subdivDhaka13.forEach(myfncrtion_subdivDhaka13);
+function myfncrtion_subdivDhaka13(subdivDhaka13,index) {
+  newsubdivDhaka13 += "<option value=subdivsubdivDhaka13" + index +">" + subdivDhaka13 + "</option>";
+}
+else if(divival=="divi1" && thanaval == "subdivDhaka1"){
+  thanaOutPut=newsubdivDhaka1;
+ }
+ else if(divival=="divi1" && thanaval == "subdivDhaka2"){
+  thanaOutPut=newsubdivDhaka2;
+ }
+ else if(divival=="divi1" && thanaval == "subdivDhaka3"){
+  thanaOutPut=newsubdivDhaka3;
+ }
+ else if(divival=="divi1" && thanaval == "subdivDhaka4"){
+  thanaOutPut=newsubdivDhaka4;
+ }
+ else if(divival=="divi1" && thanaval == "subdivDhaka5"){
+  thanaOutPut=newsubdivDhaka5;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka6"){
+  thanaOutPut=newsubdivDhaka6;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka7"){
+  thanaOutPut=newsubdivDhaka7;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka8"){
+  thanaOutPut=newsubdivDhaka8;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka9"){
+  thanaOutPut=newsubdivDhaka9;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka10"){
+  thanaOutPut=newsubdivDhaka10;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka11"){
+  thanaOutPut=newsubdivDhaka11;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka12"){
+  thanaOutPut=newsubdivDhaka12;
+ }
+ else if( divival=="divi1" && thanaval == "subdivDhaka13"){
+  thanaOutPut=newsubdivDhaka13;
+ }
