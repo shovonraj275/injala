@@ -1,10 +1,8 @@
 // <!-- ========== division Start Section ========== -->
-const divi =[
-  "একটি বিভাগ নিবাচন করুন " ,"ঢাকা","চট্টগ্রাম" , "রাজশাহী" , "খুলনা" , "বরিশাল" , "সিলেট" , "রংপুর" , "ময়মনসিংহ"];
-let newDivi = [];
-divi.forEach(myfncrtion_divi);
-function myfncrtion_divi(divi,index) {
-  newDivi += "<option value=divi" + index +">" + divi + "</option>";
+let newDivi = []; 
+division.forEach(myfncrtion_divi);
+function myfncrtion_divi(divi) {
+  newDivi += "<option value=" + divi.val +">" + divi.eng + "</option>";
 }
 document.getElementById("divi").innerHTML = newDivi;
 // <!-- ========== division End Section ========== -->
@@ -12,51 +10,52 @@ document.getElementById("divi").innerHTML = newDivi;
 const subDiveBarisal =["জেলা নিবাচন করুন ", "বরিশাল", "ঝালকাঠি", "পটুয়াখালী", "পিরোজপুর",  'ভোলা', "বরগুনা"];
 let newsubDiveBarisal =[];
 subDiveBarisal.forEach(myfncrtion_subDiveBarisa);
-function myfncrtion_subDiveBarisa(Barisal,index) {
-  newsubDiveBarisal += "<option value=subdivBarisal" + index +">" + Barisal + "</option>";
+function myfncrtion_subDiveBarisa(Barisal) {
+  newsubDiveBarisal += "<option value=" +Barisal  +">" + Barisal + "</option>";
 }
-const subDiveChittagong =["একটি জেলা নিবাচন করুন ","চট্টগ্রাম","কুমিল্লা","কক্সবাজার",  "ফেনী", "ব্রাহ্মণবাড়িয়া", "নোয়াখালী", "চাঁদপুর", "লক্ষ্মীপুর", "রাঙ্গামাটি",  "খাগড়াছড়ি", "বান্দরবান"];
 let newsubDiveChittagong =[];
 subDiveChittagong.forEach(myfncrtion_subDiveChittagong);
-function myfncrtion_subDiveChittagong(Chittagong,index) {
-  newsubDiveChittagong += "<option value=subdivChittagong" + index +">" + Chittagong + "</option>";
+function myfncrtion_subDiveChittagong(Chittagong) {
+  newsubDiveChittagong += "<option value=" + Chittagong.val +">" + Chittagong.ban + "</option>";
 }
-const subDiveDhaka =["জেলা নিবাচন করুন ","ঢাকা","নারায়ণগঞ্জ","গাজীপুর","নরসিংদী",  "শরীয়তপুর",  "টাঙ্গাইল", "কিশোরগঞ্জ", "মানিকগঞ্জ",  "মুন্সিগঞ্জ", "রাজবাড়ী", "মাদারীপুর", "গোপালগঞ্জ", "ফরিদপুর"];
+
 let newsubDiveDhaka =[];
 subDiveDhaka.forEach(myfncrtion_subDiveDhaka);
-function myfncrtion_subDiveDhaka(Dhaka,index) {
-  newsubDiveDhaka += "<option value=subdivDhaka" +index +">" + Dhaka + "</option>";
+function myfncrtion_subDiveDhaka(Dhaka) {
+  newsubDiveDhaka += "<option value=" +Dhaka.val +">" + Dhaka.eng + "</option>";
 }
 const subDiveKhulna=["জেলা নিবাচন করুন ","খুলনা","যশোর", "সাতক্ষীরা", "মেহেরপুর", "নড়াইল", "চুয়াডাঙ্গা", "কুষ্টিয়া", "মাগুরা",  "বাগেরহাট", "ঝিনাইদহ"];
 let newsubDiveKhulna =[];
 subDiveKhulna.forEach(myfncrtion_subDiveKhulna);
-function myfncrtion_subDiveKhulna(Khulna,index) {
-  newsubDiveKhulna += "<option value=subdivKhulna" + index +">" + Khulna + "</option>";
+function myfncrtion_subDiveKhulna(Khulna) {
+  newsubDiveKhulna += "<option value=" + Khulna +">" + Khulna + "</option>";
 }
 
 const subDiveRajshahi =["জেলা নিবাচন করুন ","রাজশাহী", "নাটোর","পাবনা","চাঁপাইনবাবগঞ্জ", "সিরাজগঞ্জ",  "বগুড়া",  "জয়পুরহাট", "নওগাঁ"];
+const subDiveRajshahis =[	"জেলা নিবাচন করুন ", "রংপুর","পঞ্চগড়", "দিনাজপুর", "লালমনিরহাট", "নীলফামারী", "গাইবান্ধা", "ঠাকুরগাঁও", "কুড়িগ্রাম"];
 let newsubDiveRajshahi =[];
 subDiveRajshahi.forEach(myfncrtion_subDiveRajshahi);
-function myfncrtion_subDiveRajshahi(Rajshahi,index) {
-  newsubDiveRajshahi += "<option value=subdivRajshahi" + index +">" + Rajshahi + "</option>";
+// subDiveRajshahis.forEach(myfncrtion_subDiveRajshahis);
+function myfncrtion_subDiveRajshahi  (Rajshahi,Rajshahis) {
+  newsubDiveRajshahi += "<option value=" + Rajshahi +">" + Rajshahi + "</option>";
 }
 const subDiveRangpur =[	"জেলা নিবাচন করুন ", "রংপুর","পঞ্চগড়", "দিনাজপুর", "লালমনিরহাট", "নীলফামারী", "গাইবান্ধা", "ঠাকুরগাঁও", "কুড়িগ্রাম"];
 let newsubDiveRangpur =[];
 subDiveRangpur.forEach(myfncrtion_subDiveRangpur);
-function myfncrtion_subDiveRangpur(Rangpur,index) {
-  newsubDiveRangpur += "<option value=subdivRangpur" + index +">" + Rangpur + "</option>";
+function myfncrtion_subDiveRangpur(Rangpur) {
+  newsubDiveRangpur += "<option value=" + Rangpur +">" + Rangpur + "</option>";
 }
 const subDivieMymensingh =["জেলা নিবাচন করুন ","ময়মনসিংহ", "শেরপুর", "জামালপুর", "নেত্রকোণা"];
 let newsubDivieMymensingh =[];
 subDivieMymensingh.forEach(myfncrtion_subDivieMymensingh);
-function myfncrtion_subDivieMymensingh(Mymensingh,index) {
-  newsubDivieMymensingh += "<option value=subdivMymensingh" + index +">" + Mymensingh + "</option>";
+function myfncrtion_subDivieMymensingh(Mymensingh) {
+  newsubDivieMymensingh += "<option value=" + Mymensingh +">" + Mymensingh + "</option>";
 }
 const subDivieSylhet =[ "জেলা নিবাচন করুন ","সিলেট", "মৌলভীবাজার", "হবিগঞ্জ", "সুনামগঞ্জ"  ];
 let newsubDivieSylhet =[];
 subDivieSylhet.forEach(myfncrtion_subDivieSylhet);
-function myfncrtion_subDivieSylhet(Sylhet,index) {
-  newsubDivieSylhet += "<option value=subdivSylhet" + index +">" + Sylhet + "</option>";
+function myfncrtion_subDivieSylhet(Sylhet) {
+  newsubDivieSylhet += "<option value=" + Sylhet +">" + Sylhet + "</option>";
 }
 // <!-- ========== jala  let End Section ========== -->
 // <!-- ========== onchange divi Start Section ========== -->
@@ -64,28 +63,28 @@ function divis(){
   var divival =document.getElementById("divi").value;
   console.log(divival);
   document.getElementById("test2").innerHTML =divival;
-  if (divival=="divi1"){
+  if (divival=="Dhaka"){
     subdivi_output=newsubDiveDhaka;
   }
-  else if (divival=="divi2"){
+  else if (divival=="Chattogram"){
     subdivi_output=newsubDiveChittagong;
   }
-  else if (divival=="divi3"){
+  else if (divival=="Rajshahi"){
     subdivi_output=newsubDiveRajshahi;
   }
-  else if (divival=="divi4"){
+  else if (divival=="Khulna"){
     subdivi_output=newsubDiveKhulna;
   }
-  else if (divival=="divi5"){
+  else if (divival=="Barishal"){
     subdivi_output=newsubDiveBarisal;
   }
-  else if (divival=="divi6"){
+  else if (divival=="Sylhet"){
     subdivi_output=newsubDivieSylhet;
   }
-  else if (divival=="divi7"){
+  else if (divival=="Rangpur"){
     subdivi_output=newsubDiveRangpur;
   }
-  else if (divival=="divi8"){
+  else if (divival=="Mymensingh"){
     subdivi_output=newsubDivieMymensingh;
   }
 else{ subdivi=`বিভাগ নিবাচন করুন`}
@@ -186,7 +185,7 @@ function myfncrtion_subdivDhaka13(subdivDhaka13,index) {
   newsubdivDhaka13 += "<option value=subdivsubdivDhaka13" + index +">" + subdivDhaka13 + "</option>";
 }
 console.log(newsubdivDhaka2)
-document.getElementById("test5").innerHTML=newsubdivDhaka6;
+// document.getElementById("test5").innerHTML=divi;
 // <!-- ========== End Section dhaka jaila ========== -->
 // <!-- ========== Start Section foreach dhaka jaila ========== -->
 // <!-- ========== End Section foreach dhaka jaila ========== -->
@@ -196,43 +195,43 @@ function subdivi(){
   var thanaval =document.getElementById("subdivi").value;
 document.getElementById("test3").innerHTML=thanaval;
 console.log(thanaval);
- if(divival=="divi1" && thanaval == "subdivDhaka1"){
+ if(divival=="ঢাকা" && thanaval == "ঢাকা"){
   thanaOutPut=newsubdivDhaka1;
  }
- else if(divival=="divi1" && thanaval == "subdivDhaka2"){
+ else if(divival=="ঢাকা" && thanaval == "নারায়ণগঞ্জ"){
   thanaOutPut=newsubdivDhaka2;
  }
- else if(divival=="divi1" && thanaval == "subdivDhaka3"){
+ else if(divival=="ঢাকা" && thanaval == "গাজীপুর"){
   thanaOutPut=newsubdivDhaka3;
  }
- else if(divival=="divi1" && thanaval == "subdivDhaka4"){
+ else if(divival=="ঢাকা" && thanaval == "নরসিংদী"){
   thanaOutPut=newsubdivDhaka4;
  }
- else if(divival=="divi1" && thanaval == "subdivDhaka5"){
+ else if(divival=="ঢাকা" && thanaval == "শরীয়তপুর"){
   thanaOutPut=newsubdivDhaka5;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka6"){
+ else if( divival=="ঢাকা" && thanaval == "টাঙ্গাইল"){
   thanaOutPut=newsubdivDhaka6;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka7"){
+ else if( divival=="ঢাকা" && thanaval == "কিশোরগঞ্জ"){
   thanaOutPut=newsubdivDhaka7;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka8"){
+ else if( divival=="ঢাকা" && thanaval == "মানিকগঞ্জ"){
   thanaOutPut=newsubdivDhaka8;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka9"){
+ else if( divival=="ঢাকা" && thanaval == "মুন্সিগঞ্জ"){
   thanaOutPut=newsubdivDhaka9;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka10"){
+ else if( divival=="ঢাকা" && thanaval == "রাজবাড়ী"){
   thanaOutPut=newsubdivDhaka10;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka11"){
+ else if( divival=="ঢাকা" && thanaval == "মাদারীপুর"){
   thanaOutPut=newsubdivDhaka11;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka12"){
+ else if( divival=="ঢাকা" && thanaval == "গোপালগঞ্জ"){
   thanaOutPut=newsubdivDhaka12;
  }
- else if( divival=="divi1" && thanaval == "subdivDhaka13"){
+ else if( divival=="ঢাকা" && thanaval == "ফরিদপুর"){
   thanaOutPut=newsubdivDhaka13;
  }
  else{thanaOutPut="প্রখমে জেলা নিবাচন করুন"}
@@ -244,3 +243,4 @@ console.log(thanaval);
 // <!-- ========== End Section dhaka jaila ========== -->
 // <!-- ========== Start Section foreach dhaka jaila ========== -->
 // <!-- ========== End Section foreach dhaka jaila ========== -->
+// document.getElementById("test5").innerHTML= newsubDiveDhaka;
