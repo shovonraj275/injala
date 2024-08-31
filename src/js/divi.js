@@ -534,41 +534,6 @@ var tanarajshahi=[
         val : "Shahmakhdum",
     },
     {
-        ban : "চন্দ্রিমা",
-        eng : "Chandrima",
-        val : "Chandrima",
-    },
-    {
-        ban : "কাশিয়াডাঙ্গা",
-        eng : "Kasiadanga",
-        val : "Kasiadanga",
-    },
-    {
-        ban : "কাটাখালী",
-        eng : "Katakhali",
-        val : "Katakhali",
-    },
-    {
-        ban : "বেলপুকুর",
-        eng : "Belpukur",
-        val : "Belpukur",
-    },
-    {
-        ban : "রাজশাহী বিমানবন্দর ",
-        eng : "Rajshahi Airport",
-        val : "Rajshahi_Airport",
-    },
-    {
-        ban : "কর্ণহার",
-        eng : "Karnahar",
-        val : "Karnahar",
-    },
-    {
-        ban : "দামকুঁড়া",
-        eng : "Damkura",
-        val : "Damkura",
-    },
-    {
         ban : "পবা",
         eng : "Paba",
         val : "Paba ",
@@ -628,104 +593,184 @@ var tanauinonwordBoalia =[
         val : "SelectaWardandUnion",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৮ ",
-        eng : "Rajshahi City Corporation-08",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৮ ",
+        eng : "Rajshahi City Corporation no-08",
         val : "RajshahiCityCorporation08",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৯ ",
-        eng : "Rajshahi City Corporation-09",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৯ ",
+        eng : "Rajshahi City Corporation no-09",
         val : "RajshahiCityCorporation09",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১০ ",
-        eng : "Rajshahi City Corporation-10",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১০ ",
+        eng : "Rajshahi City Corporation no-10",
         val : "RajshahiCityCorporation10",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১১ ",
-        eng : "Rajshahi City Corporation-11",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১১ ",
+        eng : "Rajshahi City Corporation no-11",
         val : "RajshahiCityCorporation11",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১২ ",
-        eng : "Rajshahi City Corporation-12",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১২ ",
+        eng : "Rajshahi City Corporation no-12",
         val : "RajshahiCityCorporation12",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৩ ",
-        eng : "Rajshahi City Corporation-13",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৩ ",
+        eng : "Rajshahi City Corporation no-13",
         val : "RajshahiCityCorporation13",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৪ ",
-        eng : "Rajshahi City Corporation-14",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৪ ",
+        eng : "Rajshahi City Corporation no-14",
         val : "RajshahiCityCorporation14",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৫ ",
-        eng : "Rajshahi City Corporation-15",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৫ ",
+        eng : "Rajshahi City Corporation no-15",
         val : "RajshahiCityCorporation15",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৬ ",
-        eng : "Rajshahi City Corporation-16",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৬ ",
+        eng : "Rajshahi City Corporation no-16",
         val : "RajshahiCityCorporation16",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৮",
-        eng : "Rajshahi City Corporation-18",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৮",
+        eng : "Rajshahi City Corporation no-18",
         val : "RajshahiCityCorporation18",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৯ ",
-        eng : "Rajshahi City Corporation-19",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৯ ",
+        eng : "Rajshahi City Corporation no-19",
         val : "RajshahiCityCorporation19",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-20 ",
-        eng : "Rajshahi City Corporation-20",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-20 ",
+        eng : "Rajshahi City Corporation no-20",
         val : "RajshahiCityCorporation20",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২১ ",
-        eng : "Rajshahi City Corporation-21",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২১ ",
+        eng : "Rajshahi City Corporation no-21",
         val : "RajshahiCityCorporation21",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২২ ",
-        eng : "Rajshahi City Corporation-22",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২২ ",
+        eng : "Rajshahi City Corporation no-22",
         val : "RajshahiCityCorporation22",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২৩ ",
-        eng : "Rajshahi City Corporation-23",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৩ ",
+        eng : "Rajshahi City Corporation no-23",
         val : "RajshahiCityCorporation23",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২৪ ",
-        eng : "Rajshahi City Corporation-24",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৪ ",
+        eng : "Rajshahi City Corporation no-24",
         val : "RajshahiCityCorporation24",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২৫ ",
-        eng : "Rajshahi City Corporation-25",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৫ ",
+        eng : "Rajshahi City Corporation no-25",
         val : "RajshahiCityCorporation25",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২৬ ",
-        eng : "Rajshahi City Corporation-26",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৬ ",
+        eng : "Rajshahi City Corporation no-26",
         val : "RajshahiCityCorporation26",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-২৭ ",
-        eng : "Rajshahi City Corporation-27",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৭ ",
+        eng : "Rajshahi City Corporation no-27",
         val : "RajshahiCityCorporation27",
     },
     
 ]
 // <!-- ========== Start Section ========== -->
+var tanauinonworMotihar =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+   {
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৮ ",
+        eng : "Rajshahi City Corporation no-28",
+        val : "RajshahiCityCorporation2",
+    },
+   {
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-২৯ ",
+        eng : "Rajshahi City Corporation no-29",
+        val : "RajshahiCityCorporation2",
+    },
+   {
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-৩০ ",
+        eng : "Rajshahi City Corporation no-30",
+        val : "RajshahiCityCorporation2",
+    },
+]
 // <!-- ========== Start Section ========== -->
+var tanauinonworPaba =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : "নওহাটা পৌরসভা",
+        eng : "Noahata Municipality",
+        val : "NoahataMunicipality",
+    },
+    {
+        ban : "কাটাখালী পৌরসভা",
+        eng : "Katakhali Municipality",
+        val : "KatakhaliMunicipality",
+    },
+    {
+        ban : "০১ নং দর্শনপাড়া ইউনিয়ন",
+        eng : "Darsanpara",
+        val : "Darsanpara",
+    },
+    {
+        ban : "০২ নং হুজুরী পাড়া ইউনিয়ন",
+        eng : "Hujuripara",
+        val : "Hujuripara",
+    },
+    {
+        ban : "০৩ নং দামকুড়া ইউনিয়ন",
+        eng : "Damkura",
+        val : "Damkura",
+    },
+    {
+        ban : "০৪ নং হরিপুর ইউনিয়ন",
+        eng : "Horipur",
+        val : "Horipur",
+    },
+    {
+        ban : "০৫ নং হড়গ্রাম ইউনিয়ন",
+        eng : "Horogram",
+        val : "Horogram",
+    },
+    {
+        ban : "০৬ নং হরিয়ান ইউনিয়ন",
+        eng : "Harian",
+        val : "Harian",
+    },
+    {
+        ban : "০৭ নং বড়্গাছি ইউনিয়ন",
+        eng : "Borgachi",
+        val : "Borgachi",
+    },
+    {
+        ban : "০৮ নং পারিলা ইউনিয়ন",
+        eng : "Parila",
+        val : "Parila",
+    },
+    
+]
 var tanauinonworRajpara =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -733,56 +778,76 @@ var tanauinonworRajpara =[
         val : "SelectaWardandUnion",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০১ ",
-        eng : "Rajshahi City Corporation-01",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০১ ",
+        eng : "Rajshahi City Corporation no-01",
         val : "RajshahiCityCorporation01",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০২ ",
-        eng : "Rajshahi City Corporation-02",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০২ ",
+        eng : "Rajshahi City Corporation no-02",
         val : "RajshahiCityCorporation02",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০১ ",
-        eng : "Rajshahi City Corporation-03",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০১ ",
+        eng : "Rajshahi City Corporation no-03",
         val : "RajshahiCityCorporation03",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৩ ",
-        eng : "Rajshahi City Corporation-03",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৩ ",
+        eng : "Rajshahi City Corporation no-03",
         val : "RajshahiCityCorporation03",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৪",
-        eng : "Rajshahi City Corporation-04",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৪",
+        eng : "Rajshahi City Corporation no-04",
         val : "RajshahiCityCorporation04",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৫",
-        eng : "Rajshahi City Corporation-05",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৫",
+        eng : "Rajshahi City Corporation no-05",
         val : "RajshahiCityCorporation05",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৬",
-        eng : "Rajshahi City Corporation-06",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৬",
+        eng : "Rajshahi City Corporation no-06",
         val : "RajshahiCityCorporation06",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-০৭",
-        eng : "Rajshahi City Corporation-07",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-০৭",
+        eng : "Rajshahi City Corporation no-07",
         val : "RajshahiCityCorporation07",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১০",
-        eng : "Rajshahi City Corporation-10",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১০",
+        eng : "Rajshahi City Corporation no-10",
         val : "RajshahiCityCorporation10",
     },
     {
-        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড-১৪",
-        eng : "Rajshahi City Corporation-14",
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৪",
+        eng : "Rajshahi City Corporation no-14",
         val : "RajshahiCityCorporation14",
     },
 ]
+// 
+
+var tanauinonworShahmakhdum =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৭",
+        eng : "Rajshahi City Corporation no-17",
+        val : "RajshahiCityCorporation17",
+    },
+    {
+        ban : "রাজশাহী সিটি কর্পোরেশন ওয়ার্ড নং-১৮",
+        eng : "Rajshahi City Corporation no-18",
+        val : "RajshahiCityCorporation18",
+    },
+]
+
 // <!-- ========== End Section ========== -->
 
 // <!-- ========== End Section ========== -->

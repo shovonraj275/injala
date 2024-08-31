@@ -4,42 +4,13 @@ function myfncrtion_tanaxyz(tanaxyz) {
   newthanaxyz += "<option value=" + tanaxyz.val +">" + tanaxyz.ban + "</option>";
 }
 
-let  newthanauinonwordmn =[];
-tanauinonwordBoalia.forEach(myfncrtion_tanauinonwordBoalia);
-function myfncrtion_tanauinonwordBoalia(tanauinonwordBoalia) {
-  newthanauinonwordBoalia += "<option value=" + tanauinonwordBoalia.val +">" + tanauinonwordBoalia.eng + "</option>";
+let  newthanauinonworPaba =[];
+tanauinonworPaba.forEach(myfncrtion_tanauinonwordPaba);
+function myfncrtion_tanauinonwordPaba(tanauinonwordPaba) {
+  newthanauinonwordPaba += "<option value=" + tanauinonwordPaba.val +">" + tanauinonwordPaba.eng + "</option>";
 }
 
 
-function Division() {
-  var Divisionval = document.getElementById("Division").value;
-  console.log(Divisionval);
-  document.getElementById("test2").innerHTML = `<h1> division value: ${Divisionval}</h1>`;
-  if (Divisionval == " ") {
-    subdivi_output = "0";
-  } 
-  else if (Divisionval == "Dhaka") {
-    subdivi_output = newsubDiveDhaka;
-  }
-  else if (Divisionval == "Chattogram") {
-    subdivi_output = newsubDiveChittagong;
-  } else if (Divisionval == "Rajshahi") {
-    subdivi_output = newsubDiveRajshahi;
-  } else if (Divisionval == "Khulna") {
-    subdivi_output = newsubDiveKhulna;
-  } else if (Divisionval == "Barishal") {
-    subdivi_output = newsubDiveBarisal;
-  } else if (Divisionval == "Sylhet") {
-    subdivi_output = newsubDivieSylhet;
-  } else if (Divisionval == "Rangpur") {
-    subdivi_output = newsubDiveRangpur;
-  } else if (Divisionval == "Mymensingh") {
-    subdivi_output = newsubDivieMymensingh;
-  } else {
-    subdivi = `বিভাগ নিবাচন করুন`
-  }
-  document.getElementById("subdivi").innerHTML = subdivi_output;
-}
 
 
 

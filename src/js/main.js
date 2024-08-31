@@ -99,18 +99,28 @@ tanauinonwordBoalia.forEach(myfncrtion_tanauinonwordBoalia);
 function myfncrtion_tanauinonwordBoalia(tanauinonwordBoalia) {
   newthanauinonwordBoalia += "<option value=" + tanauinonwordBoalia.val +">" + tanauinonwordBoalia.eng + "</option>";
 }
-document.getElementById("test4").innerHTML= newthanauinonwordBoalia;
 
-// <!-- ========== End Section boalia ========== -->
-
-// <!-- ========== Start Section  r========== -->
+let  newthanauinonworMotihar =[];
+tanauinonworMotihar.forEach(myfncrtion_tanauinonwordMotihar);
+function myfncrtion_tanauinonwordMotihar(tanauinonwordMotihar) {
+  newthanauinonworMotihar += "<option value=" + tanauinonwordMotihar.val +">" + tanauinonwordMotihar.eng + "</option>";
+}
+let  newthanauinonworPaba =[];
+tanauinonworPaba.forEach(myfncrtion_tanauinonwordPaba);
+function myfncrtion_tanauinonwordPaba(tanauinonwordPaba) {
+  newthanauinonworPaba += "<option value=" + tanauinonwordPaba.val +">" + tanauinonwordPaba.eng + "</option>";
+}
 
 let  newthanauinonwordRajpara =[];
 tanauinonworRajpara.forEach(myfncrtion_tanauinonwordRajpara);
 function myfncrtion_tanauinonwordRajpara(tanauinonwordRajpara) {
   newthanauinonwordRajpara += "<option value=" + tanauinonwordRajpara.val +">" + tanauinonwordRajpara.eng + "</option>";
 }
-
+let  newthanauinonwordShahmakhdum =[];
+tanauinonworShahmakhdum.forEach(myfncrtion_tanauinonwordShahmakhdum);
+function myfncrtion_tanauinonwordShahmakhdum(tanauinonwordShahmakhdum) {
+  newthanauinonwordShahmakhdum += "<option value=" + tanauinonwordShahmakhdum.val +">" + tanauinonwordShahmakhdum.eng + "</option>";
+}
 // <!-- ========== End Section r ========== -->
 
 
@@ -168,8 +178,17 @@ function thana(){
    if(thanaval == "Boalia"){
     unionWordOutput =newthanauinonwordBoalia;
    }
+   else if(thanaval == "Motihar"){
+    unionWordOutput =newthanauinonworMotihar;
+   }
+   else if(thanaval == "Paba"){
+    unionWordOutput =newthanauinonworPaba;
+   }
    else if(thanaval == "Rajpara"){
     unionWordOutput =newthanauinonwordRajpara;
+   }
+   else if(thanaval == "Shahmakhdum"){
+    unionWordOutput =newthanauinonwordShahmakhdum;
    }
    document.getElementById("union_word_list").innerHTML = unionWordOutput;
 }
