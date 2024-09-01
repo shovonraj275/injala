@@ -4,10 +4,10 @@ function myfncrtion_tanaxyz(tanaxyz) {
   newthanaxyz += "<option value=" + tanaxyz.val +">" + tanaxyz.ban + "</option>";
 }
 
-let  newthanauinonworPaba =[];
-tanauinonworPaba.forEach(myfncrtion_tanauinonwordPaba);
-function myfncrtion_tanauinonwordPaba(tanauinonwordPaba) {
-  newthanauinonwordPaba += "<option value=" + tanauinonwordPaba.val +">" + tanauinonwordPaba.eng + "</option>";
+let  newthanauinonworTanore   =[];
+tanauinonworTanore  .forEach(myfncrtion_tanauinonwordTanore  );
+function myfncrtion_tanauinonwordTanore  (tanauinonwordTanore  ) {
+  newthanauinonworTanore   += "<option value=" + tanauinonwordTanore  .val +">" + tanauinonwordTanore  .eng + "</option>";
 }
 
 
