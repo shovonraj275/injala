@@ -1120,7 +1120,7 @@ var tanauinonworTanore =[
     {
         ban : "গোদাগাড়ী পৌরসভা",
         eng : "Tanore Municipality",
-        val : "TanoreiMunicipality",
+        val : "TanoreMunicipality",
     },
     {
         ban : "কাঁকনহাট পৌরসভা",
