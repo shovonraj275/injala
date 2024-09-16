@@ -1,13 +1,13 @@
-let  newthanaxyz =[];
-tanaxyz.forEach(myfncrtion_tanaxyz);
-function myfncrtion_tanaxyz(tanaxyz) {
-  newthanaxyz += "<option value=" + tanaxyz.val +">" + tanaxyz.ban + "</option>";
+let  newthanaNatore =[];
+tanaNatore.forEach(myfncrtion_tanaNatore);
+function myfncrtion_tanaNatore(tanaNatore) {
+  newthanaNatore += "<option value=" + tanaNatore.val +">" + tanaNatore.ban + "</option>";
 }
 
-let  newthanauinonworTanore   =[];
-tanauinonworTanore  .forEach(myfncrtion_tanauinonwordTanore  );
-function myfncrtion_tanauinonwordTanore  (tanauinonwordTanore  ) {
-  newthanauinonworTanore   += "<option value=" + tanauinonwordTanore  .val +">" + tanauinonwordTanore  .eng + "</option>";
+let  newthanauinonworSingra   =[];
+tanauinonworSingra  .forEach(myfncrtion_tanauinonwordSingra  );
+function myfncrtion_tanauinonwordSingra  (tanauinonwordSingra  ) {
+  newthanauinonworSingra   += "<option value=" + tanauinonwordSingra  .val +">" + tanauinonwordSingra  .eng + "</option>";
 }
 
 
@@ -36,6 +36,11 @@ var tanauinonwor =[
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
         eng : "Select a Ward and Union",
         val : "SelectaWardandUnion",
+    },
+    {
+        ban : " পৌরসভা",
+        eng : " Municipality",
+        val : "Municipality",
     },
     {
         ban : "",

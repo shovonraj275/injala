@@ -489,18 +489,7 @@ var subDivieSylhet=[
 
 // <!-- ========== Start Section ========== -->
 
-var tana =[
-    {
-        ban : " থানা নিবাচন করুন",
-        eng : "Select a Thana",
-        val : "Selectadistrict",
-    },
-    {
-        ban : "",
-        eng : "",
-        val : "",
-    },
-]
+
 
 // <!-- ========== End Section ========== -->
 
@@ -579,6 +568,48 @@ var tanarajshahi=[
         val : "Bagmara",
     },
     
+]
+var tanaNatore =[
+    {
+        ban : " থানা নিবাচন করুন",
+        eng : "Select a Thana",
+        val : "Selectadistrict",
+    },
+    {
+        ban : "নাটোর সদর",
+        eng : "Natore Sadar",
+        val : "Natoresadar",
+    },
+    {
+        ban : "সিংড়া",
+        eng : "Singra",
+        val : "Singra",
+    },
+    {
+        ban : "বড়াইগ্রাম",
+        eng : "Baraigram",
+        val : "Baraigram",
+    },
+    {
+        ban : "বাগাতিপাড়া",
+        eng : "Bagatipara",
+        val : "Bagatipara",
+    },
+    {
+        ban : "লালপুর",
+        eng : "Lalpur",
+        val : "Lalpur",
+    },
+    {
+        ban : "গুরুদাসপুর",
+        eng : "Gurudaspur",
+        val : "Gurudaspur",
+    },
+    {
+        ban : "নলডাঙ্গা",
+        eng : "Naldanga",
+        val : "Naldanga",
+    },
 ]
 
 // <!-- ========== End Section Rr========== -->
@@ -689,6 +720,108 @@ var tanauinonwordBoalia =[
     },
     
 ]
+var tanauinonworBagmara=[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : "তাহেরপুর পৌরসভা",
+        eng : "Bagha Municipality",
+        val : "BaghaMunicipality",
+    },
+    {
+        ban : "ভবানীগঞ্জ পৌরসভা",
+        eng : "Bhabaniganj Municipality",
+        val : "BhabaniganjMunicipality",
+    },
+    {
+        ban : "গোবিন্দপাড়া",
+        eng : "Gobindopara",
+        val : "Gobindopara",
+    },
+    {
+        ban : "নরদাস",
+        eng : "Nordas",
+        val : "Nordas",
+    },
+    {
+        ban : "দ্বীপপুর",
+        eng : "Dippur",
+        val : "Dippur",
+    },
+    {
+        ban : "বড়বিহানলী",
+        eng : "Borobihanoli",
+        val : "Borobihanoli",
+    },
+    {
+        ban : "আউচপাড়া",
+        eng : "Auchpara,",
+        val : "Auchpara,",
+    },
+    {
+        ban : "শ্রীপুর",
+        eng : "Sreepur",
+        val : "Sreepur",
+    },
+    {
+        ban : "বাসুপাড়া",
+        eng : "Basupara",
+        val : "Basupara",
+    },
+    {
+        ban : "কাচাড়ী কোয়লিপাড়া",
+        eng : "Kacharikoalipara",
+        val : "Kacharikoalipara",
+    },
+    {
+        ban : "শুভডাঙ্গা",
+        eng : "Suvodanga",
+        val : "Suvodanga",
+    },
+    {
+        ban : "শুভডাঙ্গা",
+        eng : "Suvodanga",
+        val : "Suvodanga",
+    },
+    {
+        ban : "মাড়িয়া",
+        eng : "Maria",
+        val : "Maria",
+    },
+    {
+        ban : "গণিপুর",
+        eng : "Ganipur",
+        val : "Ganipur",
+    },
+    {
+        ban : "ঝিকড়া",
+        eng : "Zhikara",
+        val : "Zhikara",
+    },
+    {
+        ban : "গোয়ালকান্দি",
+        eng : "Gualkandi",
+        val : "Gualkandi",
+    },
+    {
+        ban : "হামিরকুৎসা",
+        eng : "Hamirkutsa",
+        val : "Hamirkutsa",
+    },
+    {
+        ban : "যোগিপাড়া",
+        eng : "Jogipara",
+        val : "Jogipara",
+    },
+    {
+        ban : "সোনাডাঙ্গা",
+        eng : "Sonadanga",
+        val : "Sonadanga",
+    },
+]
 var tanauinonworBagha =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -731,6 +864,28 @@ var tanauinonworBagha =[
         val : "Bausa",
     },
 ]
+var tanauinonworBaraigram =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : " পৌরসভা",
+        eng : " Municipality",
+        val : "Municipality",
+    },
+    {
+        ban : "বনপাড়া পৌরসভা",
+        eng : "Banpara Municipality",
+        val : "BanparaMunicipality",
+    },
+    {
+        ban : "",
+        eng : "",
+        val : "",
+    },
+]
 var tanauinonworCharghat =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -768,7 +923,6 @@ var tanauinonworCharghat =[
         val : "Vialuxmipur",
     },
 ]
-// <!-- ========== Start Section ========== -->
 var tanauinonworDurgapur =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -872,7 +1026,79 @@ var tanauinonworGodagari =[
         eng : "Asariadaha",
         val : "Asariadaha",
     },
-]    
+]  
+var tanauinonworNatore =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : "নাটোর পৌরসভা",
+        eng : "Natore Municipality",
+        val : "NatoreMunicipality",
+    },
+    {
+        ban : "ব্রহ্মপুর",
+        eng : "Brahmapur",
+        val : "Brahmapur",
+    },
+    {
+        ban : "মাধনগর",
+        eng : "Madhnagar",
+        val : "Madhnagar",
+    },
+    {
+        ban : "খাজুরা",
+        eng : "Khajura",
+        val : "Khajura",
+    },
+    {
+        ban : "পিপরুল",
+        eng : "Piprul",
+        val : "Piprul",
+    },
+    {
+        ban : "বিপ্রবেলঘড়িয়া",
+        eng : "Biprobelghoria",
+        val : "Biprobelghoria",
+    },
+    {
+        ban : "ছাতনী",
+        eng : "Chhatni",
+        val : "Chhatni",
+    },
+    {
+        ban : "তেবাড়িয়া",
+        eng : "Tebaria",
+        val : "Tebaria",
+    },
+    {
+        ban : "দিঘাপতিয়া",
+        eng : "Dighapatia",
+        val : "Dighapatia",
+    },
+    {
+        ban : "লক্ষীপুর খোলাবাড়িয়া",
+        eng : "Luxmipurkholabaria",
+        val : "Luxmipurkholabaria",
+    },
+    {
+        ban : "বড়হরিশপুর",
+        eng : "Barahorispur",
+        val : "Barahorispur",
+    },
+    {
+        ban : "কাফুরিয়া",
+        eng : "Kaphuria",
+        val : "Kaphuria",
+    },
+    {
+        ban : "হালসা",
+        eng : "Halsa",
+        val : "Halsa",
+    },
+]  
 var tanauinonworMotihar =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -895,8 +1121,6 @@ var tanauinonworMotihar =[
         val : "RajshahiCityCorporation2",
     },
 ]
-// <!-- ========== Start Section ========== -->
-
 var tanauinonworMohonpur =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -1092,8 +1316,6 @@ var tanauinonworRajpara =[
         val : "RajshahiCityCorporation14",
     },
 ]
-// 
-
 var tanauinonworShahmakhdum =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -1111,6 +1333,78 @@ var tanauinonworShahmakhdum =[
         val : "RajshahiCityCorporation18",
     },
 ]
+var tanauinonworSingra =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : "সিংড়া পৌরসভা",
+        eng : "Singra Municipality",
+        val : "SingraMunicipality",
+    },
+    {
+        ban : "শুকাশ",
+        eng : "Sukash",
+        val : "Sukash",
+    },
+    {
+        ban : "ডাহিয়া",
+        eng : "Dahia",
+        val : "Dahia",
+    },
+    {
+        ban : "ইটালী",
+        eng : "Italy",
+        val : "Italy",
+    },
+    {
+        ban : "কলম",
+        eng : "Kalam",
+        val : "Kalam",
+    },
+    {
+        ban : "চামারী",
+        eng : "Chamari",
+        val : "Chamari",
+    },
+    {
+        ban : "হাতিয়ানদহ",
+        eng : "Hatiandaha",
+        val : "Hatiandaha",
+    },
+    {
+        ban : "লালোর",
+        eng : "Lalore",
+        val : "Lalore",
+    },
+    {
+        ban : "শেরকোল",
+        eng : "Sherkole",
+        val : "Sherkole",
+    },
+    {
+        ban : "তাজপুর",
+        eng : "Tajpur",
+        val : "Tajpur",
+    },
+    {
+        ban : "চৌগ্রাম",
+        eng : "Chaugram",
+        val : "Chaugram",
+    },
+    {
+        ban : "ছাতারদিঘী",
+        eng : "Chhatardighi",
+        val : "Chhatardighi",
+    },
+    {
+        ban : "রামান্দখাজুরা",
+        eng : "Ramanandakhajura",
+        val : "Ramanandakhajura",
+    },
+]
 var tanauinonworTanore =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
@@ -1118,26 +1412,44 @@ var tanauinonworTanore =[
         val : "SelectaWardandUnion",
     },
     {
-        ban : "গোদাগাড়ী পৌরসভা",
+        ban : "তানোর পৌরসভা",
         eng : "Tanore Municipality",
         val : "TanoreMunicipality",
     },
     {
-        ban : "কাঁকনহাট পৌরসভা",
-        eng : "Kakonhat Municipality",
-        val : "KakonhatMunicipality",
+        ban : "মুন্ডুমালা পৌরসভা",
+        eng : "Mundumala Municipality",
+        val : "MundumalaMunicipality",
     },
     {
-        ban : "মোহনপুর",
-        eng : "Mohonpur",
-        val : "Mohonpur",
+        ban : "কলমা",
+        eng : "Kalma",
+        val : "Kalma",
+    },
+    {
+        ban : "বাধাইড়",
+        eng : "Badhair",
+        val : "Badhair",
+    },
+    {
+        ban : "পাঁচন্দর",
+        eng : "Panchandar",
+        val : "Panchandar",
+    },
+    {
+        ban : "তালন্দ",
+        eng : "Talondo",
+        val : "Talondo",
+    },
+    {
+        ban : "কামারগাঁ",
+        eng : "Kamargaon",
+        val : "Kamargaon",
+    },
+    {
+        ban : "চান্দুড়িয়া",
+        eng : "Chanduria",
+        val : "Chanduria",
     },
 ]
 
-
-// <!-- ========== End Section ========== -->
-
-// <!-- ========== End Section ========== -->
-// <!-- ========== Start Section word anduion ========== -->
-
-// <!-- ========== End Section word anduion ========== -->

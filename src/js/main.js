@@ -85,6 +85,11 @@ tanarajshahi.forEach(myfncrtion_tanarajshahi);
 function myfncrtion_tanarajshahi(tanarajshahi) {
   newthanarajshahi += "<option value=" + tanarajshahi.val +">" + tanarajshahi.eng + "</option>";
 }
+let  newthanaNatore =[];
+tanaNatore.forEach(myfncrtion_tanaNatore);
+function myfncrtion_tanaNatore(tanaNatore) {
+  newthanaNatore += "<option value=" + tanaNatore.val +">" + tanaNatore.eng + "</option>";
+}
 // <!-- ========== End Section tana list========== -->
 
 // <!-- ========== Start Section uinon word foreach ========== -->
@@ -130,6 +135,14 @@ tanauinonworMohonpur.forEach(myfncrtion_tanauinonwordMohonpur  );
 function myfncrtion_tanauinonwordMohonpur  (tanauinonwordMohonpur  ) {
   newthanauinonworMohonpur   += "<option value=" + tanauinonwordMohonpur  .val +">" + tanauinonwordMohonpur  .eng + "</option>";
 }
+
+let  newthanauinonworNatore   =[];
+tanauinonworNatore  .forEach(myfncrtion_tanauinonwordNatore  );
+function myfncrtion_tanauinonwordNatore  (tanauinonwordNatore  ) {
+  newthanauinonworNatore   += "<option value=" + tanauinonwordNatore  .val +">" + tanauinonwordNatore  .eng + "</option>";
+}
+
+
 let  newthanauinonworPaba =[];
 tanauinonworPaba.forEach(myfncrtion_tanauinonwordPaba);
 function myfncrtion_tanauinonwordPaba(tanauinonwordPaba) {
@@ -146,6 +159,13 @@ tanauinonworRajpara.forEach(myfncrtion_tanauinonwordRajpara);
 function myfncrtion_tanauinonwordRajpara(tanauinonwordRajpara) {
   newthanauinonwordRajpara += "<option value=" + tanauinonwordRajpara.val +">" + tanauinonwordRajpara.eng + "</option>";
 }
+let  newthanauinonworSingra   =[];
+tanauinonworSingra  .forEach(myfncrtion_tanauinonwordSingra  );
+function myfncrtion_tanauinonwordSingra  (tanauinonwordSingra  ) {
+  newthanauinonworSingra   += "<option value=" + tanauinonwordSingra  .val +">" + tanauinonwordSingra  .eng + "</option>";
+}
+
+
 let  newthanauinonwordShahmakhdum =[];
 tanauinonworShahmakhdum.forEach(myfncrtion_tanauinonwordShahmakhdum);
 function myfncrtion_tanauinonwordShahmakhdum(tanauinonwordShahmakhdum) {
@@ -204,6 +224,9 @@ function District() {
   if(Districtval == "Rajshahi"){
     thanaOutPut = newthanarajshahi;
   }
+  else if(Districtval == "Natore"){
+    thanaOutPut = newthanaNatore;
+  }
   document.getElementById("thanaList").innerHTML = thanaOutPut;
 }
 // document.getElementById("sort").innerHTML=c;
@@ -232,6 +255,9 @@ function thana(){
    else if(thanaval == "Mohonpur"){
     unionWordOutput =newthanauinonworMohonpur;
    }
+   else if(thanaval == "Natoresadar"){
+    unionWordOutput =newthanauinonworNatore;
+   }
    else if(thanaval == "Puthia"){
     unionWordOutput =newthanauinonworPuthia;
    }
@@ -243,6 +269,9 @@ function thana(){
    }
    else if(thanaval == "Shahmakhdum"){
     unionWordOutput =newthanauinonwordShahmakhdum;
+   }
+   else if(thanaval == "Singra"){
+    unionWordOutput =newthanauinonworSingra;
    }
    else if(thanaval == "Tanore"){
     unionWordOutput =newthanauinonworTanore;
