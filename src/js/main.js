@@ -109,6 +109,17 @@ tanauinonworBagha  .forEach(myfncrtion_tanauinonwordBagha  );
 function myfncrtion_tanauinonwordBagha  (tanauinonwordBagha  ) {
   newthanauinonworBagha   += "<option value=" + tanauinonwordBagha  .val +">" + tanauinonwordBagha  .eng + "</option>";
 }
+let  newthanauinonworBaraigram   =[];
+tanauinonworBaraigram  .forEach(myfncrtion_tanauinonwordBaraigram  );
+function myfncrtion_tanauinonwordBaraigram  (tanauinonwordBaraigram  ) {
+  newthanauinonworBaraigram   += "<option value=" + tanauinonwordBaraigram  .val +">" + tanauinonwordBaraigram  .eng + "</option>";
+}
+let  newthanauinonworBagatipara   =[];
+tanauinonworBagatipara  .forEach(myfncrtion_tanauinonwordBagatipara  );
+function myfncrtion_tanauinonwordBagatipara  (tanauinonwordBagatipara  ) {
+  newthanauinonworBagatipara   += "<option value=" + tanauinonwordBagatipara  .val +">" + tanauinonwordBagatipara  .eng + "</option>";
+}
+
 let  newthanauinonworCharghat   =[];
 tanauinonworCharghat  .forEach(myfncrtion_tanauinonwordCharghat  );
 function myfncrtion_tanauinonwordCharghat  (tanauinonwordCharghat  ) {
@@ -124,7 +135,11 @@ tanauinonworDurgapur .forEach(myfncrtion_tanauinonwordDurgapur );
 function myfncrtion_tanauinonwordDurgapur (tanauinonwordDurgapur ) {
   newthanauinonworDurgapur  += "<option value=" + tanauinonwordDurgapur .val +">" + tanauinonwordDurgapur .eng + "</option>";
 }
-
+let  newthanauinonworLalpur   =[];
+tanauinonworLalpur  .forEach(myfncrtion_tanauinonwordLalpur  );
+function myfncrtion_tanauinonwordLalpur  (tanauinonwordLalpur  ) {
+  newthanauinonworLalpur   += "<option value=" + tanauinonwordLalpur  .val +">" + tanauinonwordLalpur  .eng + "</option>";
+}
 let  newthanauinonworMotihar =[];
 tanauinonworMotihar.forEach(myfncrtion_tanauinonwordMotihar);
 function myfncrtion_tanauinonwordMotihar(tanauinonwordMotihar) {
@@ -240,6 +255,12 @@ function thana(){
    else if(thanaval == "Bagha"){
     unionWordOutput =newthanauinonworBagha;
    }
+   else if(thanaval == "Baraigram"){
+    unionWordOutput =newthanauinonworBaraigram;
+   }
+   else if(thanaval == "Bagatipara"){
+    unionWordOutput =newthanauinonworBagatipara;
+   }
    else if(thanaval == "Charghat"){
     unionWordOutput =newthanauinonworCharghat;
    }
@@ -251,6 +272,9 @@ function thana(){
    }
    else if(thanaval == "Motihar"){
     unionWordOutput =newthanauinonworMotihar;
+   }
+   else if(thanaval == "Lalpur"){
+    unionWordOutput =newthanauinonworLalpur;
    }
    else if(thanaval == "Mohonpur"){
     unionWordOutput =newthanauinonworMohonpur;

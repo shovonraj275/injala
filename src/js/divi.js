@@ -871,9 +871,9 @@ var tanauinonworBaraigram =[
         val : "SelectaWardandUnion",
     },
     {
-        ban : " পৌরসভা",
-        eng : " Municipality",
-        val : "Municipality",
+        ban : "বড়াইগ্রাম পৌরসভা",
+        eng : "Baraigram Municipality",
+        val : "BaraigramMunicipality",
     },
     {
         ban : "বনপাড়া পৌরসভা",
@@ -881,9 +881,66 @@ var tanauinonworBaraigram =[
         val : "BanparaMunicipality",
     },
     {
-        ban : "",
-        eng : "",
-        val : "",
+        ban : "জোয়াড়ী",
+        eng : "Joari",
+        val : "Joari",
+    },
+    {
+        ban : "জোনাইল",
+        eng : "Zonail",
+        val : "Zonail",
+    },
+    {
+        ban : "নগর",
+        eng : "Nagor",
+        val : "Nagor",
+    },
+    {
+        ban : "মাঝগাও",
+        eng : "Majgoan",
+        val : "Majgoan",
+    },
+    {
+        ban : "গোপালপুর",
+        eng : "Gopalpur",
+        val : "Gopalpur",
+    },
+    {
+        ban : "চান্দাই",
+        eng : "Chandai",
+        val : "Chandai",
+    },
+]
+var tanauinonworBagatipara =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : " পৌরসভা",
+        eng : "Bagatipara Municipality",
+        val : "BagatiparaMunicipality",
+    },
+    {
+        ban : "পাঁকা",
+        eng : "Panka",
+        val : "Panka",
+    },
+    {
+        ban : "জামনগর",
+        eng : "Jamnagor",
+        val : "Jamnagor",
+    },
+    {
+        ban : "দয়ারামপুর",
+        eng : "Dayarampur",
+        val : "Dayarampur",
+    },
+    {
+        ban : "ফাগুয়ারদিয়াড়",
+        eng : "Faguardiar",
+        val : "Faguardiar",
     },
 ]
 var tanauinonworCharghat =[
@@ -1027,6 +1084,63 @@ var tanauinonworGodagari =[
         val : "Asariadaha",
     },
 ]  
+var tanauinonworLalpur =[
+    {
+        ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
+        eng : "Select a Ward and Union",
+        val : "SelectaWardandUnion",
+    },
+    {
+        ban : "লালপুর পৌরসভা",
+        eng : "Lalpur Municipality",
+        val : "LalpurMunicipality",
+    },
+    {
+        ban : "ঈশ্বরদী",
+        eng : "Iswardi",
+        val : "Iswardi",
+    },
+    {
+        ban : "চংধুপইল",
+        eng : "Chongdhupoil",
+        val : "Chongdhupoil",
+    },
+    {
+        ban : "আড়বাব",
+        eng : "Arbab",
+        val : "Arbab",
+    },
+    {
+        ban : "বিলমাড়িয়া",
+        eng : "Bilmaria",
+        val : "Bilmaria",
+    },
+    {
+        ban : "দুয়ারিয়া",
+        eng : "Duaria",
+        val : "Duaria",
+    },
+    {
+        ban : "ওয়ালিয়া",
+        eng : "Oalia",
+        val : "Oalia",
+    },
+    {
+        ban : "অর্জুনপুর",
+        eng : "Arjunpur",
+        val : "Arjunpur",
+    },
+    {
+        ban : "দুড়দুরিয়া",
+        eng : "Durduria",
+        val : "Durduria",
+    },
+    {
+        ban : "কদিমচিলান",
+        eng : "Kadimchilan",
+        val : "Kadimchilan",
+    },
+]
 var tanauinonworNatore =[
     {
         ban : "ওয়ার্ড ও ইউনিয়ন নিবাচন করুন",
